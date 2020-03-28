@@ -10,6 +10,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class Homepage_search {
 	WebDriver driver;
@@ -18,14 +19,25 @@ public class Homepage_search {
 	By select =By.xpath("//*[@id=\"Catalog\"]/table/tbody/tr[2]/td[1]/a");
 	By item=By.xpath("//*[@id=\"Catalog\"]/table/tbody/tr[2]/td[1]/a");
 	
-	//Launch_The_Chrome_Browser
-			public void url() 
-			{
-				System.setProperty("webdriver.chrome.driver","src\\test\\resources\\driver\\chromedriver.exe");
-				driver = new ChromeDriver();
+	//Launch_The_Browsers
+    public void url(String browserName) { 
+		
+        //Launch_the ChromeDriver
+		if(browserName.equals("chrome")){
 
-				//Maximize_The_Browser_Window
-				driver.manage().window().maximize();
+			System.setProperty("webdriver.chrome.driver", "src\\test\\resources\\driver\\chromedriver.exe");
+			driver = new ChromeDriver();
+		}
+         //Launch_the_Firefox
+		else if(browserName.equals("firefox")){
+			System.setProperty("webdriver.gecko.driver", "src\\test\\resources\\driver\\geckodriver.exe");
+			driver = new FirefoxDriver();
+		}
+		//Maximize_The_Browser_Window
+		driver.manage().window().maximize();
+		
+		//DeleteAllcookies_From_Browser
+		driver.manage().deleteAllCookies();
 
 				//Wait_For_50_Sec
 				driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);

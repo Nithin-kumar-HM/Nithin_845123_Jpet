@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import com.pages.RegistrationMain_Page;
 
 
-import cucumber.api.java.en.Then;
+
 import cucumber.api.java.en.When;
 
 public class Registration_test {
@@ -17,7 +17,7 @@ public	WebDriver driver;
 
 @When("^User click on Sign In botton and click on Register Now!$")
 public void user_click_on_Sign_In_botton_and_click_on_Register_Now() throws Throwable {
-    reg.url();
+    reg.url("chrome");
     reg.register();
     
 }

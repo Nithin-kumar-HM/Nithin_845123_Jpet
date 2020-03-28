@@ -12,7 +12,7 @@ public class Valid_Search_Test {
 	@Given("^the search bar in the login page$")
 	public void the_search_bar_in_the_login_page() throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
-		val_Search.url();
+		val_Search.url("chrome");
 	    
 	}
 

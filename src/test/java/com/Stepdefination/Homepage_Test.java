@@ -12,7 +12,7 @@ public class Homepage_Test {
 	@Given("^:Open the JPET website$")
 	public void open_the_JPET_website() throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
-	    h.url();
+	    h.url("chrome");
 	}
 
 	@When("^:click on image$")

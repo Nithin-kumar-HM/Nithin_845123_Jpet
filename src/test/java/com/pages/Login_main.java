@@ -11,14 +11,14 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 import excelutility.com.Read_excelsheet_login;
 
 public class Login_main {
 		
 		WebDriver driver;
-		
+		static int counter=1;
 		//Web_Elements_Of_Login_Page
 		
 		By signin=By.xpath("//*[@id=\"MenuContent\"]/a[2]");
@@ -27,15 +27,26 @@ public class Login_main {
         By login=By.xpath("//*[@id=\"Catalog\"]/form/input");
 		By logout=By.xpath("//*[@id=\"MenuContent\"]/a[2]");
 		
-		//Launch_The_Chrome_Browser
-		public void url() 
-			{
-			System.setProperty("webdriver.chrome.driver","src\\test\\resources\\driver\\chromedriver.exe");
-			driver = new ChromeDriver();
+		//Launch_The_Browsers
+	    public void url(String browserName) { 
 			
+	        //Launch_the ChromeDriver
+			if(browserName.equals("chrome")){
+
+				System.setProperty("webdriver.chrome.driver", "src\\test\\resources\\driver\\chromedriver.exe");
+				driver = new ChromeDriver();
+			}
+	         //Launch_the_Firefox
+			else if(browserName.equals("firefox")){
+				System.setProperty("webdriver.gecko.driver", "src\\test\\resources\\driver\\geckodriver.exe");
+				driver = new FirefoxDriver();
+			}
 			//Maximize_The_Browser_Window
 			driver.manage().window().maximize();
 			
+			//DeleteAllcookies_From_Browser
+			driver.manage().deleteAllCookies();
+		
 			//Wait_For_50_Sec
 			driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
 			
@@ -75,14 +86,17 @@ public class Login_main {
 			{
 				driver.findElement(login).click();
 				Thread.sleep(2000);
-				
 				driver.findElement(logout).click();
+				
+				
 				
 			}
 			
 			//Close_The_Browser
 			public void close()
+			
 			{
+				
 				driver.close();
 			}
 			
@@ -91,7 +105,7 @@ public class Login_main {
 			{
 				File f =((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 				
-			String	path="src\\test\\resources\\Screenshot\\login.png";
+			String	path="src\\test\\resources\\Screenshot\\loginpage.png";
 				
 				FileUtils.copyFile(f,new File(path));
 			}

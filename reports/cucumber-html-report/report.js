@@ -8,7 +8,7 @@ formatter.feature({
   "tags": [
     {
       "line": 1,
-      "name": "@Training_Project_Jpets.feature"
+      "name": "@Project_Jpets.feature"
     }
   ]
 });
@@ -84,7 +84,7 @@ formatter.examples({
     },
     {
       "cells": [
-        "1234567wer",
+        "123456678",
         "qwertyuiop",
         "Ramu",
         "Ragam",
@@ -103,7 +103,7 @@ formatter.examples({
     },
     {
       "cells": [
-        "1234567bd45",
+        "123456789",
         "asdfghjkl",
         "Krishna",
         "katugga",
@@ -122,7 +122,7 @@ formatter.examples({
     },
     {
       "cells": [
-        "1234567da89",
+        "123456798",
         "zxcvbnmasd",
         "RajShekhar",
         "Borra",
@@ -152,7 +152,7 @@ formatter.scenario({
   "tags": [
     {
       "line": 1,
-      "name": "@Training_Project_Jpets.feature"
+      "name": "@Project_Jpets.feature"
     },
     {
       "line": 5,
@@ -167,7 +167,7 @@ formatter.step({
 });
 formatter.step({
   "line": 8,
-  "name": "User enters User Id as \"1234567wer\" and  New password as \"qwertyuiop\" and Repeat password as \"qwertyuiop\"",
+  "name": "User enters User Id as \"123456678\" and  New password as \"qwertyuiop\" and Repeat password as \"qwertyuiop\"",
   "matchedColumns": [
     0,
     1
@@ -208,28 +208,28 @@ formatter.match({
   "location": "Registration_test.user_click_on_Sign_In_botton_and_click_on_Register_Now()"
 });
 formatter.result({
-  "duration": 14453707900,
+  "duration": 18729019000,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "1234567wer",
+      "val": "123456678",
       "offset": 24
     },
     {
       "val": "qwertyuiop",
-      "offset": 58
+      "offset": 57
     },
     {
       "val": "qwertyuiop",
-      "offset": 94
+      "offset": 93
     }
   ],
   "location": "Registration_test.user_enters_User_Id_as_and_New_password_as_and_Repeat_password_as(String,String,String)"
 });
 formatter.result({
-  "duration": 543118000,
+  "duration": 850293300,
   "status": "passed"
 });
 formatter.match({
@@ -278,14 +278,14 @@ formatter.match({
   "location": "Registration_test.user_enters_First_name_as_and_Last_name_as_and_Email_as_and_Phone_as_and_AddressOne_as_and_AddressTwo_as_and_City_as_and_State_as_and_Zip_as_and_Country_as(String,String,String,String,String,String,String,String,String,String)"
 });
 formatter.result({
-  "duration": 1309530301,
+  "duration": 1945733200,
   "status": "passed"
 });
 formatter.match({
   "location": "Registration_test.user_selects_Language_Preference_as_English_and_Favourite_Category_as_DOGS_and_Enable_MyList_and_Enable_MyBanner()"
 });
 formatter.result({
-  "duration": 643284000,
+  "duration": 725270900,
   "status": "passed"
 });
 formatter.match({
@@ -298,7 +298,7 @@ formatter.match({
   "location": "Registration_test.user_click_on_Save_Account_Information(String)"
 });
 formatter.result({
-  "duration": 1133358499,
+  "duration": 3259829700,
   "status": "passed"
 });
 formatter.scenario({
@@ -311,7 +311,7 @@ formatter.scenario({
   "tags": [
     {
       "line": 1,
-      "name": "@Training_Project_Jpets.feature"
+      "name": "@Project_Jpets.feature"
     },
     {
       "line": 5,
@@ -326,7 +326,7 @@ formatter.step({
 });
 formatter.step({
   "line": 8,
-  "name": "User enters User Id as \"1234567bd45\" and  New password as \"asdfghjkl\" and Repeat password as \"asdfghjkl\"",
+  "name": "User enters User Id as \"123456789\" and  New password as \"asdfghjkl\" and Repeat password as \"asdfghjkl\"",
   "matchedColumns": [
     0,
     1
@@ -367,28 +367,28 @@ formatter.match({
   "location": "Registration_test.user_click_on_Sign_In_botton_and_click_on_Register_Now()"
 });
 formatter.result({
-  "duration": 11959719199,
+  "duration": 13847163600,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "1234567bd45",
+      "val": "123456789",
       "offset": 24
     },
     {
       "val": "asdfghjkl",
-      "offset": 59
+      "offset": 57
     },
     {
       "val": "asdfghjkl",
-      "offset": 94
+      "offset": 92
     }
   ],
   "location": "Registration_test.user_enters_User_Id_as_and_New_password_as_and_Repeat_password_as(String,String,String)"
 });
 formatter.result({
-  "duration": 539723000,
+  "duration": 800968800,
   "status": "passed"
 });
 formatter.match({
@@ -437,14 +437,14 @@ formatter.match({
   "location": "Registration_test.user_enters_First_name_as_and_Last_name_as_and_Email_as_and_Phone_as_and_AddressOne_as_and_AddressTwo_as_and_City_as_and_State_as_and_Zip_as_and_Country_as(String,String,String,String,String,String,String,String,String,String)"
 });
 formatter.result({
-  "duration": 1494459499,
+  "duration": 2152457900,
   "status": "passed"
 });
 formatter.match({
   "location": "Registration_test.user_selects_Language_Preference_as_English_and_Favourite_Category_as_DOGS_and_Enable_MyList_and_Enable_MyBanner()"
 });
 formatter.result({
-  "duration": 414397999,
+  "duration": 613728700,
   "status": "passed"
 });
 formatter.match({
@@ -457,7 +457,7 @@ formatter.match({
   "location": "Registration_test.user_click_on_Save_Account_Information(String)"
 });
 formatter.result({
-  "duration": 1119760900,
+  "duration": 2770084100,
   "status": "passed"
 });
 formatter.scenario({
@@ -470,7 +470,7 @@ formatter.scenario({
   "tags": [
     {
       "line": 1,
-      "name": "@Training_Project_Jpets.feature"
+      "name": "@Project_Jpets.feature"
     },
     {
       "line": 5,
@@ -485,7 +485,7 @@ formatter.step({
 });
 formatter.step({
   "line": 8,
-  "name": "User enters User Id as \"1234567da89\" and  New password as \"zxcvbnmasd\" and Repeat password as \"zxcvbnmasd\"",
+  "name": "User enters User Id as \"123456798\" and  New password as \"zxcvbnmasd\" and Repeat password as \"zxcvbnmasd\"",
   "matchedColumns": [
     0,
     1
@@ -526,28 +526,28 @@ formatter.match({
   "location": "Registration_test.user_click_on_Sign_In_botton_and_click_on_Register_Now()"
 });
 formatter.result({
-  "duration": 12082273801,
+  "duration": 14174688800,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "1234567da89",
+      "val": "123456798",
       "offset": 24
     },
     {
       "val": "zxcvbnmasd",
-      "offset": 59
+      "offset": 57
     },
     {
       "val": "zxcvbnmasd",
-      "offset": 95
+      "offset": 93
     }
   ],
   "location": "Registration_test.user_enters_User_Id_as_and_New_password_as_and_Repeat_password_as(String,String,String)"
 });
 formatter.result({
-  "duration": 499915800,
+  "duration": 810138200,
   "status": "passed"
 });
 formatter.match({
@@ -596,14 +596,14 @@ formatter.match({
   "location": "Registration_test.user_enters_First_name_as_and_Last_name_as_and_Email_as_and_Phone_as_and_AddressOne_as_and_AddressTwo_as_and_City_as_and_State_as_and_Zip_as_and_Country_as(String,String,String,String,String,String,String,String,String,String)"
 });
 formatter.result({
-  "duration": 1419447701,
+  "duration": 2272890800,
   "status": "passed"
 });
 formatter.match({
   "location": "Registration_test.user_selects_Language_Preference_as_English_and_Favourite_Category_as_DOGS_and_Enable_MyList_and_Enable_MyBanner()"
 });
 formatter.result({
-  "duration": 401801500,
+  "duration": 585856800,
   "status": "passed"
 });
 formatter.match({
@@ -616,7 +616,7 @@ formatter.match({
   "location": "Registration_test.user_click_on_Save_Account_Information(String)"
 });
 formatter.result({
-  "duration": 1041955201,
+  "duration": 2172190200,
   "status": "passed"
 });
 formatter.scenario({
@@ -657,28 +657,28 @@ formatter.match({
   "location": "Loginmain_Test.the_user_launches_the_website_in_chrome_browser()"
 });
 formatter.result({
-  "duration": 11213932700,
+  "duration": 12653276200,
   "status": "passed"
 });
 formatter.match({
   "location": "Loginmain_Test.opens_the_login_page()"
 });
 formatter.result({
-  "duration": 29845205500,
+  "duration": 22780199200,
   "status": "passed"
 });
 formatter.match({
   "location": "Loginmain_Test.enter_username_and_password()"
 });
 formatter.result({
-  "duration": 443829800,
+  "duration": 562269100,
   "status": "passed"
 });
 formatter.match({
   "location": "Loginmain_Test.click_on_login_button()"
 });
 formatter.result({
-  "duration": 1156389300,
+  "duration": 1940423900,
   "status": "passed"
 });
 formatter.scenario({
@@ -719,28 +719,28 @@ formatter.match({
   "location": "Homepage_Test.open_the_JPET_website()"
 });
 formatter.result({
-  "duration": 11977059300,
+  "duration": 13073658700,
   "status": "passed"
 });
 formatter.match({
   "location": "Homepage_Test.click_on_image()"
 });
 formatter.result({
-  "duration": 2758781001,
+  "duration": 3041194800,
   "status": "passed"
 });
 formatter.match({
   "location": "Homepage_Test.click_on_Product_Id()"
 });
 formatter.result({
-  "duration": 2795276499,
+  "duration": 3220085300,
   "status": "passed"
 });
 formatter.match({
   "location": "Homepage_Test.close_The_Website()"
 });
 formatter.result({
-  "duration": 1546619999,
+  "duration": 1891473800,
   "status": "passed"
 });
 formatter.scenario({
@@ -781,35 +781,35 @@ formatter.match({
   "location": "Valid_Search_Test.the_search_bar_in_the_login_page()"
 });
 formatter.result({
-  "duration": 12022054901,
+  "duration": 13487149600,
   "status": "passed"
 });
 formatter.match({
   "location": "Valid_Search_Test.search_for_the_animal_you_are_looking_for()"
 });
 formatter.result({
-  "duration": 2347600301,
+  "duration": 2410382500,
   "status": "passed"
 });
 formatter.match({
   "location": "Valid_Search_Test.enter_the_product_id_and_name_in_the_search_bar()"
 });
 formatter.result({
-  "duration": 4042619200,
+  "duration": 4799016000,
   "status": "passed"
 });
 formatter.match({
   "location": "Valid_Search_Test.click_on_the_Search_button()"
 });
 formatter.result({
-  "duration": 3609908599,
+  "duration": 3839578100,
   "status": "passed"
 });
 formatter.scenario({
   "line": 46,
-  "name": "Add the animals or bird to the cart and remove from cart",
+  "name": "Add to Cart and remove cart in the JPet Store application.",
   "description": "",
-  "id": "jpet-website;add-the-animals-or-bird-to-the-cart-and-remove-from-cart",
+  "id": "jpet-website;add-to-cart-and-remove-cart-in-the-jpet-store-application.",
   "type": "scenario",
   "keyword": "Scenario",
   "tags": [
@@ -821,50 +821,74 @@ formatter.scenario({
 });
 formatter.step({
   "line": 48,
-  "name": "the details of the required animal or bird",
+  "name": "open the url in browser",
   "keyword": "Given "
 });
 formatter.step({
   "line": 49,
-  "name": "the product id and name of the animal is added to the cart",
+  "name": "the url is launched click on search and enter search content",
   "keyword": "When "
 });
 formatter.step({
   "line": 50,
-  "name": "check the shopping cart",
+  "name": "click on search button",
   "keyword": "Then "
 });
 formatter.step({
   "line": 51,
-  "name": "contains the wish list and romove form cart",
+  "name": "click on product id",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 52,
+  "name": "click on Item ID",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 53,
+  "name": "click on addtocart",
   "keyword": "And "
 });
 formatter.match({
-  "location": "Addcart_Test.the_details_of_the_required_animal_or_bird()"
+  "location": "Addtocart_Test.open_the_url_in_browser()"
 });
 formatter.result({
-  "duration": 11005665701,
+  "duration": 12610753500,
   "status": "passed"
 });
 formatter.match({
-  "location": "Addcart_Test.the_product_id_and_name_of_the_animal_is_added_to_the_cart()"
+  "location": "Addtocart_Test.the_url_is_launched_click_on_search_and_enter_search_content()"
 });
 formatter.result({
-  "duration": 4074487800,
+  "duration": 302450000,
   "status": "passed"
 });
 formatter.match({
-  "location": "Addcart_Test.check_the_shopping_cart()"
+  "location": "Addtocart_Test.click_on_search_button()"
 });
 formatter.result({
-  "duration": 23804374800,
-  "error_message": "org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath\u003d//*[@id\u003d\"Cart\"]/form/table/tbody/tr[2]/td[8]/a\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-DOTQCC1F\u0027, ip: \u0027192.168.1.22\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002713.0.1\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat com.pages.Addtocart_And_Removecart_main.add(Addtocart_And_Removecart_main.java:59)\r\n\tat com.Stepdefination.Addcart_Test.check_the_shopping_cart(Addcart_Test.java:29)\r\n\tat ✽.Then check the shopping cart(src/main/resources/feature/testcase1.feature:50)\r\n",
-  "status": "failed"
+  "duration": 898742700,
+  "status": "passed"
 });
 formatter.match({
-  "location": "Addcart_Test.contains_the_wish_list_and_romove_form_cart()"
+  "location": "Addtocart_Test.click_on_product_id()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 643508700,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Addtocart_Test.click_on_Item_ID()"
+});
+formatter.result({
+  "duration": 7023603900,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Addtocart_Test.click_on_addtocart()"
+});
+formatter.result({
+  "duration": 801947500,
+  "status": "passed"
 });
 });

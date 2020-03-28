@@ -9,48 +9,43 @@ import cucumber.api.java.en.When;
 public class Loginmain_Test {
 
 	Login_main log = new Login_main();
-	
+
 	@Given("^the user launches the website in chrome browser$")
 	public void the_user_launches_the_website_in_chrome_browser() throws Throwable {
-	    // Write code here that turns the phrase above into concrete actions
-	    log.url();
+
+		log.url("chrome");
 	}
 
 	@When("^opens the login page$")
 	public void opens_the_login_page() throws Throwable {
-	    // Write code here that turns the phrase above into concrete actions
-		 for(int i=0;i<2;i++)
-		    {
-			 log.homepage();
-			 log.Jpet_username(i);
+		// Write code here that turns the phrase above into concrete actions
+
+		for(int i=0;i<2;i++) {
+
+			log.homepage();
+			log.Jpet_username(i);
 			log.Jpet_password(i);
 			Thread.sleep(2000);
-			//log.screenshot();
+			log.Login_click();
+			Thread.sleep(1000); 
+		}
+	}
+
+		@Then("^enter username and password$")
+		public void enter_username_and_password() throws Throwable {
+			// Write code here that turns the phrase above into concrete actions
+
+
+			System.out.println("login is done successfully");
+			log.screenshot();
+		}
+
+		@Then("^click on login button$")
+		public void click_on_login_button() throws Throwable {
+			// Write code here that turns the phrase above into concrete actions	
 			Thread.sleep(1000);
-		 log.Login_click();
-			Thread.sleep(2000);
-		
-		    }
-	    
-	}
+			log.close();
+		}
 
-	@Then("^enter username and password$")
-	public void enter_username_and_password() throws Throwable {
-	    // Write code here that turns the phrase above into concrete actions
-		
-		
-		System.out.println("login is done successfully");
-		log.screenshot();
-	}
 
-	@Then("^click on login button$")
-	public void click_on_login_button() throws Throwable {
-	    // Write code here that turns the phrase above into concrete actions
-		
-		//log.screenshot();
-		Thread.sleep(1000);
-	    log.close();
 	}
-
-	
-}

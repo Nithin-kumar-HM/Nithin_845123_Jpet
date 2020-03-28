@@ -1,4 +1,4 @@
-@Training_Project_Jpets.feature
+@Project_Jpets.feature
 Feature: Jpet Website
 
  
@@ -14,9 +14,9 @@ Scenario Outline: Registration of the Jpet Application
 	Examples:
 		#Change Registration Details for time running the code 
 		| userId | password | firstName | lastName | email | phone | addressOne | addressTwo | city | state | zip | country |Register|
-		| 1234567wer | qwertyuiop |Ramu|Ragam|aasdfghjkl@gmail.com|9876543210|Chinna gari colony|Kotha Peta|Kaikalur|AP|521333|India|Register1| 
-		| 1234567bd45 | asdfghjkl |Krishna|katugga|aasdfghjkl@gmail.com|9876543211|Chinna gari colony|Kotha Peta|Kaikalur|AP|521333|India|Register2|
-		| 1234567da89 | zxcvbnmasd |RajShekhar|Borra|aasdfghjkl@gmail.com|9876543212|Chinna gari colony|Kotha Peta|Kaikalur|AP|521333|India|Register3|
+		| 123456678| qwertyuiop |Ramu|Ragam|aasdfghjkl@gmail.com|9876543210|Chinna gari colony|Kotha Peta|Kaikalur|AP|521333|India|Register1| 
+		| 123456789| asdfghjkl |Krishna|katugga|aasdfghjkl@gmail.com|9876543211|Chinna gari colony|Kotha Peta|Kaikalur|AP|521333|India|Register2|
+		| 123456798 | zxcvbnmasd |RajShekhar|Borra|aasdfghjkl@gmail.com|9876543212|Chinna gari colony|Kotha Peta|Kaikalur|AP|521333|India|Register3|
 @tc02_Login
 Scenario: Login to the Jpet store application
 
@@ -43,11 +43,13 @@ Scenario: Search for the animal by entering animal name in textbox apllication
  Then click on the Search button
   
 @tc05_addtocart
-Scenario: Add the animals or bird to the cart and remove from cart
+Scenario: Add to Cart and remove cart in the JPet Store application.
 
-Given the details of the required animal or bird
-When the product id and name of the animal is added to the cart
-Then check the shopping cart
-And contains the wish list and romove form cart
+Given open the url in browser 
+When the url is launched click on search and enter search content
+Then click on search button
+And click on product id
+And click on Item ID
+And click on addtocart
   
  
